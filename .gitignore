@@ -1,0 +1,11 @@
+# Terraform .gitignore
+
+# Local .terraform directories
+**/.terraform/*
+**/.scripts/*
+!.terraform/modules/
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+*.terraform.*
